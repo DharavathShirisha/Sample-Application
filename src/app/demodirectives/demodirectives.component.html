@@ -1,0 +1,18 @@
+<p>demodirectives works!</p>
+<div *ngIf="count > 3">
+    <p>helo i am exaple of ngIf</p>
+</div>
+<ol>
+    <li *ngFor="let item of continents; let i=index">
+        {{i}}-{{item}}
+    </li>
+</ol>
+
+<div [ngSwitch]="num"> 
+    <div *ngSwitchCase="'1'">One</div> 
+    <div *ngSwitchCase="'2'">Two</div> 
+    <div *ngSwitchCase="'3'">Three</div> 
+    <div *ngSwitchCase="'4'">Four</div> 
+    <div *ngSwitchCase="'5'">Five</div> 
+  </div>
+<p [ngStyle]="paraStyle">ngStyle attribute demo</p>

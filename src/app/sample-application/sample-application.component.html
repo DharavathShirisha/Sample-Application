@@ -1,0 +1,7 @@
+<p>sample-application works!</p>
+<p><input type="text" [(ngModel)]="TwoWayDataBinding"></p>
+<p><input type="text" (change)="onChanged($event)"/></p> <!--event handling  -->
+<p>Value:{{TwoWayDataBinding}}</p>
+<button [disabled]="isDisabled" class="btn btn-primary">Save me!</button>
+
+ 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sample-application';
+  constructor(){
+    throw new Error("Error from App Component"); //display throw error  +alret messiang  as alert
+  }
+  datafromchildvariable:any="";
+  handleDatafromChild(value:string){
+    this.datafromchildvariable = value;
+    console.log(this.datafromchildvariable=value);
+  }
 }

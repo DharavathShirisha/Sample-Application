@@ -1,0 +1,4 @@
+<p>mouseevent works!</p>
+<div (mouseover)="expandText()" (mouseout)="shrinkText()">
+    <span [ngClass]="{'expanded': isExpanded, 'collapsed': !isExpanded}">{{ text }}</span>
+  </div>

@@ -1,0 +1,7 @@
+ /* angular component */
+:host{
+    border: 5px rebeccapurple;
+    display: block;
+    padding: 10px;
+    background-color: bisque
+}

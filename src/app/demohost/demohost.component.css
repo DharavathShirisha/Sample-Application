@@ -1,0 +1,7 @@
+ /* angular component */
+ :host{
+    border: 5px rgb(3, 62, 13);
+    display: block;
+    padding: 15px;
+    /* background-color: rgb(10, 160, 236) */
+}

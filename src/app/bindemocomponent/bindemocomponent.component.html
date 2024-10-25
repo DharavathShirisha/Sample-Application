@@ -1,0 +1,7 @@
+<p>bindemocomponent works!</p>
+<p><input type="text" [(ngModel)]="TwoWayDataBinding1"></p>
+<p>Value:{{TwoWayDataBinding1}}</p>
+<p><input type="text" [(ngModel)]="TwoWayDataBinding2" ></p> <!--event handling  -->
+<p>Value:{{TwoWayDataBinding2}}</p>
+<p><input type="text" (change)="onChanged($event)"/></p>
+<button class="btn btn-primary">Save</button>
